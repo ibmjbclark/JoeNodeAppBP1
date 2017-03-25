@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: JoeNodeAppBP1
+  host: JoeNodeAppBP1
+  disk_quota: 1024M
+  services:
+  - JoeNodeAppBP1-cloudantNoSQLDB
